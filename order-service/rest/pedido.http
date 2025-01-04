@@ -1,0 +1,16 @@
+POST http://localhost:8080/pedidos HTTP/1.1
+Content-Type: application/json
+
+{
+    "cliente_id": 1,
+    "produtos": [
+        {
+            "id": 1,
+            "quantidade": 1
+        },
+        {
+            "id": 2,
+            "quantidade": 1
+        }
+    ]
+}

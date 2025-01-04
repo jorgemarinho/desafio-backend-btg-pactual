@@ -1,0 +1,29 @@
+{
+    "require": {
+        "slim/slim": "^4.0",
+        "slim/psr7": "^1.4",
+        "doctrine/orm": "^3",
+        "doctrine/migrations": "^3.3",
+        "doctrine/dbal": "^3.9",
+        "php-di/php-di": "^7.0",
+        "symfony/cache": "^7.2",
+        "symfony/dotenv": "^7.2",
+        "respect/validation": "^2.3",
+        "php-amqplib/php-amqplib": "^3.7"
+    },
+    "autoload": {
+        "psr-4": {
+            "Core\\": "src/Core/",
+            "Tests\\": "src/Core/tests/"
+        }
+    },
+    "require-dev": {
+        "pestphp/pest": "^3.7",
+        "pestphp/pest-plugin": "^3.0"
+    },
+    "config": {
+        "allow-plugins": {
+            "pestphp/pest-plugin": true
+        }
+    }
+}

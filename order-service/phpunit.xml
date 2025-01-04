@@ -1,0 +1,22 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<phpunit xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+         xsi:noNamespaceSchemaLocation="https://schema.phpunit.de/9.5/phpunit.xsd"
+         bootstrap="src/Core/tests/Pest.php"
+         colors="true"
+         stopOnFailure="false">
+    <testsuites>
+        <testsuite name="Application Test Suite">
+            <directory suffix="Test.php">src/Core/tests</directory>
+        </testsuite>
+    </testsuites>
+
+    <coverage processUncoveredFiles="true">
+        <include>
+            <directory suffix=".php">src/Core</directory>
+        </include>
+    </coverage>
+    <php>
+        <env name="DB_DRIVER" value="pdo_sqlite"/>
+        <env name="DB_PATH" value=":memory:"/>
+    </php>
+</phpunit>
