@@ -1,5 +1,5 @@
 <p align="center" width="100%">
-    <img width="50%" src="https://github.com/jorgemarinho/desafio-backend-btg-pactual/tree/master/images/btg-logo.jpg"> 
+    <img width="50%" src="https://github.com/jorgemarinho/desafio-backend-btg-pactual/blob/master/images/btg-logo.jpg"> 
 </p>
 
 <h3 align="center">
@@ -12,9 +12,9 @@
   <img alt="Version: 1.0" src="https://img.shields.io/badge/version-1.0-yellowgreen">
 </p>
 
-[Se inscreva em nosso canal no Youtube!](https://www.youtube.com/@JorgeMarinhoDev?sub_confirmation=1){:target="_blank"}
+[Se inscreva em nosso canal no Youtube!](https://www.youtube.com/@JorgeMarinhoDev?sub_confirmation=1)
 
-Para um maior entendimento do código deste repositório, [assista nosso vídeo no Youtube, clique aqui.](https://www.youtube.com/watch?v=e_WgAB0Th_I){:target="_blank"}
+Para um maior entendimento do código deste repositório, [assista nosso vídeo no Youtube, clique aqui.](https://www.youtube.com/watch?v=e_WgAB0Th_I)
 
 ## Desafio
 Confira o enunciado completo, [clicando aqui](./problem.md).
@@ -73,6 +73,6 @@ Dividimos o desafio em dois microsserviços: Order-Service e Api.
 ---
 
 # Desafio inspirado no canal Build & Run, com agradecimentos pela inspiração. 
-Veja esse canal: [Build & Run](https://www.youtube.com/watch?v=e_WgAB0Th_I){:target="_blank"}
+Veja esse canal: [Build & Run](https://www.youtube.com/watch?v=e_WgAB0Th_I)
 
 Developed by Jorge Marinho
