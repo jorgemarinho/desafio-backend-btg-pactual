@@ -54,7 +54,13 @@ Dividimos o desafio em dois microsserviços: Order-Service e Api.
     docker-compose up --build
     ```
 
-4. Gere as tabelas do migration:
+4. Instale as dependências com o Composer  
+    1. Entre dentro da imagem do app (order-service):
+        ```sh
+        composer install
+        ```
+
+5. Gere as tabelas do migration:
     1. Entre dentro da imagem do app (order-service):
         ```sh
         docker-compose exec app bash
